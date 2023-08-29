@@ -1,0 +1,348 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 2px black;
+}
+
+.header {
+    width: 22%;
+    background-color: #EFB0C9;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align:left;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 24px;
+  }
+
+#frnd-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+#bd-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#bd-date {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* pink: #EFB0C9 */
+/* blue: #a2d2ff */
+/* white: #ffffff */
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom:10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    max-width: 500px;
+    height: 500px;
+    display: flex;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-happy {
+    margin: 0 auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("cat4.jpg");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-fell {
+    margin: 0 auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("cats3.jpg");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-cont1 {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("cake1.jpg");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-cont2 {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("kak1.jpg");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-cont3 {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("cute1.jpg");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-cont4 {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("cute2.jpg");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-cont5 {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("cute3.jpg");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-cont6 {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("cats5.gif");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-cont7 {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("cute4.gif");
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-cheers{
+    height: 300px;
+    background-size:cover ;
+}
+
+#footer {
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    margin: 40px auto 20px;
+    text-align: center;
+}
+
+#last-msg {
+    margin-top: 20px;
+    text-shadow: 0px 0px 2px black;
+}
+
+#spl-msg {
+    margin-top: 20px;
+    text-shadow: 0px 0px 2px black;
+}
+
+.bd-msg {
+    margin-top: 60px;
+    text-shadow: 0px 0px 2px black;
+}
+
+@media only screen and (max-width: 480px) {
+    .gift-section {
+        font-size: 10px;
+    }
+
+    .bd-msg {
+        font-size: 15px;
+    }
+
+    .gift-img {
+        margin: 0 auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-image: url("gift-cover.jpg");
+        background-size: cover;
+        display: flex;
+    }
+
+    #gift-img-happy {
+        margin: 0 auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        /* background-image: url("gift-cover.jpg"); */
+        background-size: cover;
+    }
+
+    #gift-img-fell {
+        margin: 0 auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    #gift-img-cont1 {
+        margin: 30px auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    #gift-img-cont2 {
+        margin: 30px auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    #gift-img-cont3 {
+        margin: 30px auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    #gift-img-cont4 {
+        margin: 30px auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    #gift-img-cont5 {
+        margin: 30px auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    #gift-img-cont6 {
+        margin: 30px auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    #gift-img-cont7 {
+        margin: 30px auto;
+        max-width: 350px;
+        height: 350px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    .header {
+        width: 100%;
+        background-color: #EFB0C9;
+        color: #FFFFFF;
+        padding: 10px;
+        text-align:center;
+        margin: 2px 2px 2px 2px;
+      }
+    
+      .title {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      #footer {
+        font-size: 10px;
+      }
+  }
+
+.button-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; /* Adjust the height as needed */
+}
+
+.button {
+padding: 10px 20px;
+margin: 0 10px;
+font-size: 16px;
+cursor: pointer;
+}  
+
+@media (max-width: 600px) {
+    .button-container {
+      flex-direction: column; /* Switch to column arrangement on mobile */
+      justify-content: space-around;
+    }
+  }
